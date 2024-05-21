@@ -147,11 +147,11 @@
         </section>
                                 <!--TEAM--->
         <section class="section-team content-padding">
-            <div class="container">
+            <div class="container-team">
                 <h2 class="main-title">Our Team</h2>
                 <ul class="menu-team">
                     <li class="menu-item-team">
-                        <img class="item-img-team" srcset="./images/team/img1@1.jpg, ./images/team/img1@2.jpg"
+                        <img class="item-img-team" srcset="./images/team/img1@1.jpg 1x, ./images/team/img1@2.jpg 2x"
                         src="./images/team/img1@1.jpg" alt="Mark's photo" width="264" height="260"/>
                         <div class="team-worker">
                         <h3 class="item-title-team">Mark Guerrero</h3>
@@ -189,7 +189,7 @@
                         </div>
                     </li>
                     <li class="menu-item-team">
-                        <img class="item-img-team" srcset="./images/team/img2@1.jpg, ./images/team/img2@2.jpg" src="./images/team/img2@1.jpg"
+                        <img class="item-img-team" srcset="./images/team/img2@1.jpg 1x, ./images/team/img2@2.jpg 2x" src="./images/team/img2@1.jpg"
                             alt="Tom's photo" width="264" height="260" />
                         <div class="team-worker">
                         <h3 class="item-title-team">Tom Ford</h3>
@@ -227,7 +227,7 @@
                         </div>
                     </li>
                     <li class="menu-item-team">
-                        <img class="item-img-team" srcset="./images/team/img3@1.jpg, ./images/team/img3@2.jpg" src="./images/team/img3@1.jpg"
+                        <img class="item-img-team" srcset="./images/team/img3@1.jpg 1x, ./images/team/img3@2.jpg 2x" src="./images/team/img3@1.jpg"
                             alt="Camila's photo" width="264" height="260" />
                         <div class="team-worker">
                         <h3 class="item-title-team">Camila Garcia</h3>
@@ -265,7 +265,7 @@
                         </div>
                     </li>
                     <li class="menu-item-team">
-                        <img class="item-img-team" srcset="./images/team/img4@1.jpg, ./images/team/img4@2.jpg" src="./images/team/img4@1.jpg"
+                        <img class="item-img-team" srcset="./images/team/img4@1.jpg 1x, ./images/team/img4@2.jpg 2x" src="./images/team/img4@1.jpg"
                             alt="Daniel's photo" width="264" height="260" />
                         <div class="team-worker">
                         <h3 class="item-title-team">Daniel Wilson</h3>
@@ -306,18 +306,22 @@
             </div>
         </section>
                                 <!--PORTFOLIO--->
-        <section id="portfolio" class="page-portfolio content-padding hidden">
+        <section id="portfolio" class="page-portfolio content-padding">
             <div class="container">
             <h2 class="main-title">Our Portfolio</h2>
             <ul class="menu-portfolio">
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
                 <picture>
-                     <source media="(min-width: 1158px)" srcset="./images/team/img1@1.jpg, ./images/team/img1@2.jpg">
-                     <source media="(min-width: 768px)" srcset="">
-                     <source media="(max-width: 767px)" srcset="">
+                    <source media="(min-width: 1158px)"
+                        srcset="./images/portfolio/img-11@1-lap.jpg 1x, ./images/portfolio/img-11@2-lap.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/portfolio/img-11@1-tab.jpg 1x, ./images/portfolio/img-11@2-tab.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/portfolio/img-11@1-mob.jpg 1x, ./images/portfolio/img-11@2-mob.jpg 2x">
+                    <img class="item-img-portfolio" src="./images/portfolio/img-11@1-lap.jpg" alt="photo Banking App" width="360"
+                        height="300" />
                 </picture>
-                <img class="item-img-portfolio" src="./images/img11.jpg" alt="photo Banking App" width="360" height="300"/>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -328,7 +332,16 @@
             </li>
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
-                <img class="item-img-portfolio" src="./images/img12.jpg" alt="photo Cashless Payment" width="360" height="300"/>
+                <picture>
+                    <source media="(min-width: 1158px)"
+                        srcset="./images/portfolio/img-12@1-lap.jpg 1x, ./images/portfolio/img-12@2-lap.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/portfolio/img-12@1-tab.jpg 1x, ./images/portfolio/img-12@2-tab.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/portfolio/img-12@1-mob.jpg 1x, ./images/portfolio/img-12@2-mob.jpg 2x">
+                    <img class="item-img-portfolio" src="./images/portfolio/img-12@1-lap.jpg" alt="photo Cashless Payment" width="360"
+                        height="300" />
+                </picture>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -339,7 +352,16 @@
             </li>
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
-                <img class="item-img-portfolio" src="./images/img13.jpg" alt="photo Meditation App" width="360" height="300"/>
+                    <picture>
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/img-13@1-lap.jpg 1x, ./images/portfolio/img-13@2-lap.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/img-13@1-tab.jpg 1x, ./images/portfolio/img-13@2-tab.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/img-13@1-mob.jpg 1x, ./images/portfolio/img-13@2-mob.jpg 2x">
+                        <img class="item-img-portfolio" src="./images/portfolio/img-13@1-lap.jpg" alt="photo Meditation App" width="360"
+                            height="300" />
+                    </picture>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -350,7 +372,16 @@
             </li>
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
-                <img class="item-img-portfolio" src="./images/img14.jpg" alt="photo Taxi Service" width="360" height="300"/>
+                <picture>
+                    <source media="(min-width: 1158px)"
+                        srcset="./images/portfolio/img-14@1-lap.jpg 1x, ./images/portfolio/img-14@2-lap.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/portfolio/img-14@1-tab.jpg 1x, ./images/portfolio/img-14@2-tab.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/portfolio/img-14@1-mob.jpg 1x, ./images/portfolio/img-14@2-mob.jpg 2x">
+                    <img class="item-img-portfolio" src="./images/portfolio/img-14@1-lap.jpg" alt="photo Taxi Service" width="360"
+                        height="300" />
+                </picture>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -361,7 +392,16 @@
             </li>
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
-                <img src="./images/img15.jpg" alt="photo Screen Illustrations" width="360" height="300"/>
+                <picture>
+                    <source media="(min-width: 1158px)"
+                        srcset="./images/portfolio/img-15@1-lap.jpg 1x, ./images/portfolio/img-15@2-lap.jpg 2x">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/portfolio/img-15@1-tab.jpg 1x, ./images/portfolio/img-15@2-tab.jpg 2x">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/portfolio/img-15@1-mob.jpg 1x, ./images/portfolio/img-15@2-mob.jpg 2x">
+                    <img class="item-img-portfolio" src="./images/portfolio/img-15@1-lap.jpg" alt="photo Screen Illustrations" width="360"
+                        height="300" />
+                </picture>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -372,7 +412,16 @@
             </li>
             <li class="menu-item-portfolio">
                 <div class="portfolio-overlay">
-                <img src="./images/img16.jpg" alt="photo Online Courses" width="360" height="300"/>
+                    <picture>
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/img-16@1-lap.jpg 1x, ./images/portfolio/img-16@2-lap.jpg 2x">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/img-16@1-tab.jpg 1x, ./images/portfolio/img-16@2-tab.jpg 2x">
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/img-16@1-mob.jpg 1x, ./images/portfolio/img-16@2-mob.jpg 2x">
+                        <img class="item-img-portfolio" src="./images/portfolio/img-16@1-lap.jpg" alt="photo Online Courses"
+                            width="360" height="300" />
+                    </picture>
                 <p class="text-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
                 </p>
                 </div>
@@ -386,8 +435,8 @@
         </section>
     </main>
                             <!---FOOTER----->
-    <footer class="page-footer hidden">
-        <div class="container footer-content" >
+    <footer class="page-footer">
+        <div class="container container-footer content-padding" >
         <div class="footer-info">
         <a class="logo-type" href="./index.html">Web<span class="logo-studio">Studio</span></a>
         <p class="footer-text">
