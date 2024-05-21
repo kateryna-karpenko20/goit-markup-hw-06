@@ -954,7 +954,6 @@ FOOTER
 }
 
 .footer-social {
-  display: block;
   width: 208px;
   margin-left: auto;
   margin-right: auto;
@@ -1028,10 +1027,18 @@ FOOTER
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: transparent;
+  opacity: 0.3;
+  padding-left: 16px;
 }
 
 .subscribe-email::placeholder {
   color: #ffffff;
+}
+
+.subscribe-email:hover,
+.subscribe-email:focus {
+  border: none;
+  opacity: 1;
 }
 
 .subscribe-button {
@@ -1056,6 +1063,74 @@ FOOTER
   margin-left: 16px;
 }
 
+@media screen and (min-width: 768px) {
+  .page-footer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .container-footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: baseline;
+  }
+
+  .footer-info {
+    text-align: left;
+    width: 264px;
+    margin-left: 108px;
+  }
+
+  .footer-social {
+    margin-left: 24px;
+  }
+
+  .footer-subscribe {
+    margin-left: 108px;
+  }
+
+  .footer-subscribe-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .subscribe-email {
+    width: 264px;
+  }
+
+  .subscribe-text {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .page-footer {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container-footer {
+    flex-wrap: nowrap;
+    gap: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-info {
+    margin-left: 0;
+  }
+
+  .footer-social {
+    margin-left: 120px;
+  }
+
+  .footer-subscribe {
+    margin-left: 80px;
+  }
+}
 /* ========================================================================================================================================================
-не забуть за падинг-конт помен на 100
+BACKDROP
 ======================================================================================================================================================== */
