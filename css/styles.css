@@ -258,10 +258,11 @@ HEADER
   height: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 72px 16px 40px 16px;
+  padding: 72px 24px 40px 16px;
   display: flex;
   flex-direction: column;
   position: relative;
+  cursor: none;
 }
 
 .menu-close-btn {
@@ -356,7 +357,7 @@ HEADER
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
+  gap: 40px;
 }
 
 .item-social-icon-header {
