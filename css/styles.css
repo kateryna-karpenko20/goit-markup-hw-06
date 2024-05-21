@@ -1083,6 +1083,10 @@ FOOTER
     margin-left: 24px;
   }
 
+  .footer-social-text {
+    text-align: start;
+  }
+
   .footer-subscribe {
     margin-left: 108px;
   }
